@@ -1,0 +1,13 @@
+# Runtime SQLite data and local photos
+database/*.db
+database/*.db-*
+*.sqlite
+*.sqlite3
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Editors
+.vscode/
+.idea/
