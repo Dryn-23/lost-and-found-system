@@ -17,7 +17,7 @@ class AdminLoginView(ttk.Frame):
         ttk.Label(header, text="LF", background=COLORS["teal"], foreground="white", padding=(10, 7), font=("Segoe UI", 11, "bold")).pack(side="left")
         brand = ttk.Frame(header, style="White.TFrame")
         brand.pack(side="left", padx=(10, 0))
-        ttk.Label(brand, text="Back2U", style="CardTitle.TLabel").pack(anchor="w")
+        ttk.Label(brand, text="BackToU", style="CardTitle.TLabel").pack(anchor="w")
         ttk.Label(brand, text="School Lost & Found", style="WhiteMuted.TLabel").pack(anchor="w")
         ttk.Button(header, text="← Back to public catalog", style="Link.TButton", command=app.show_public_home).pack(side="right")
 
